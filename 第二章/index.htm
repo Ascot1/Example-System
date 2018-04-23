@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="UTF-8">
+	<!--声明文档兼容模式，表示使用IE浏览器的最新模式-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<!--设置视口的宽度，页面初始缩放值<理想宽度/可见宽度>-->
+	<meta name="viewport" content="width=deviced-width,inital-scale=1">
+	<!--上述三个meta标签必须放在最前面，任何其他内容都必须紧随其后-->
+    <!--引入Bootstrap核心样式-->
+		<link rel="stylesheet" href="../Css/bootstrap.css"/>
+        <!--引入jquery核心js文件-->		
+        <script type="text/javascript" src="../Scripts/jquery-1.4.1.min.js"></script>
+        <!--引入bootstrap核心js文件-->
+        <script type="text/javascript" src="../Scripts/bootstrap.js" ></script>
+
+
+    <title>主页</title>
+    <style type="text/css">
+        .style2
+        {
+            text-align: center;
+            font-size: x-large;
+            font-weight: bold;
+            font-family: 宋体, Arial, Helvetica, sans-serif;
+            height: 124px;
+        }
+        #TextArea1
+        {
+            width: 249px;
+        }
+        #Text1
+        {
+            width: 1309px;
+            height: 47px;
+            margin-top: 0px;
+        }
+        .style3
+        {
+            color: #66FF33;
+            font-weight: bold;
+            font-size: xx-large;
+            text-align: center;
+            height: 37px;
+        }
+        .style6
+        {
+            text-align: center;
+            font-weight: bold;
+        }
+        .style7
+        {
+            text-align: center;
+        }
+        a
+        {
+        	color:#000;
+        	}
+        .style8
+        {
+            color: #000000;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        function onChange(id,flag) {
+            if (flag == "over") {
+                document.getElementById(id).style.background = "#87CEFF";
+            }
+            if (flag == "out") {
+                document.getElementById(id).style.background = "#FFFFF0";
+            }
+        }
+    </script>
+</head>
+<body " background="../Image/4.jpg">
+     <nav aria-label="...">
+	  <ul class="pager">
+	    <li class="previous "><a href="../Default.aspx"><span aria-hidden="true">&larr;</span> 上一页</a></li>
+	    <li class="next disabled"><a href="#">下一页<span aria-hidden="true">&rarr;</span></a></li>
+	  </ul>
+	</nav>
+        <div class="style2">
+            <div style="background-color: #C0C0C0; height: 126px; background-image: url('../Image/1.gif'); margin-top: 0px;">
+            </div>
+            <br />
+    </div>
+        <p class="style3" style="background-image: none">
+            &nbsp;<span class="style8">第二章例子</span></p>
+    <table align="center" bgcolor="#FFFFF0" 
+        
+    style="border-color: #0099CC; width: 93%; background-color: #FFFFF0; height: 431px; " 
+    border="1px" cellpadding="0.5px" cellspacing="0.5px">
+        <tr>
+            <td class="style6" id="td1" onmouseover="onChange('td1','over') " 
+                onmouseout = "onChange('td1','out')" style="background-image: none" 
+                >
+                <a href="2-01.htm" style="background-image: none" >实例2-01</a></td>
+            <td class="style6"  id="td2" onmouseover="onChange('td2','over') " 
+                onmouseout = "onChange('td2','out')" 
+                style="background-image: none">
+                <a href="2-02.aspx">实例2-02</a></td>
+            <td class="style6"  id="td3" onmouseover="onChange('td3','over') " onmouseout = "onChange('td3','out')">
+                <a href="2-03.aspx">实例2-03</a></td>
+        </tr>
+        <tr>
+            <td class="style6"  id="td4" onmouseover="onChange('td4','over') " onmouseout = "onChange('td4','out')">
+                <a href="2-04.aspx">实例2-04</a></td>
+            <td class="style7"  id="td5" onmouseover="onChange('td5','over') " onmouseout = "onChange('td5','out')">
+                <b><a href="2-05.aspx">实例2-05</a></b></td>
+            <td class="style7"  id="td6" onmouseover="onChange('td6','over') " onmouseout = "onChange('td6','out')">
+                <b><a href="2-06.aspx">实例2-06</a></b></td>
+        </tr>
+        <tr>
+            <td class="style7"  id="td7" onmouseover="onChange('td7','over') " onmouseout = "onChange('td7','out')">
+                <b><a href="2-07.aspx">实例2-07</a></b></td>
+            <td class="style7"  id="td8" onmouseover="onChange('td8','over') " onmouseout = "onChange('td8','out')">
+                <b><a href="2-08.aspx">实例2-08</a></b></td>
+            <td class="style7"  id="td9" onmouseover="onChange('td9','over') " onmouseout = "onChange('td9','out')">
+                <b><a href="2-09.aspx">实例2-09</a></b></td>
+        </tr>
+       
+    </table>
+
+<div style="background-color: #C0C0C0; height: 154px; background-image: url('../Image/6.jpg'); margin-top: 0px;">
+</div>
+  
+
+</body>
+</html>
